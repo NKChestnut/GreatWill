@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatwill | Simple Thrifting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Greatwill</h1>
+        <nav>
+            <a href="#shop">Shop</a>
+            <a href="#admin">Owner Upload</a>
+        </nav>
+    </header>
+
+    <section id="shop" class="container">
+        <h2>Featured Finds</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="img-placeholder">Image 1</div>
+                <h3>Vintage Denim Jacket</h3>
+                <p>$25.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="img-placeholder">Image 2</div>
+                <h3>Classic Wool Sweater</h3>
+                <p>$18.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="img-placeholder">Image 3</div>
+                <h3>Retro Graphic Tee</h3>
+                <p>$12.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="admin" class="container admin-section">
+        <div class="upload-box">
+            <h2>Business Owner Portal</h2>
+            <p>Upload new arrivals to the website</p>
+            <form id="uploadForm">
+                <input type="text" placeholder="Item Name" required>
+                <input type="number" placeholder="Price ($)" required>
+                <label for="file-upload" class="custom-file-upload">Choose Photo</label>
+                <input id="file-upload" type="file" accept="image/*">
+                <button type="submit" class="submit-btn">Post to Website</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Greatwill Thrift Store</p>
+    </footer>
+
+</body>
+</html>
