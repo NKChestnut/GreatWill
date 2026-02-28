@@ -18,7 +18,7 @@
 
     <section id="shop" class="container">
         <h2>Featured Finds</h2>
-        <div class="product-grid">
+        <div id="product-grid" class="product-grid">
             
             <div class="product-card">
                 <a href="leather-jacket.html">
@@ -26,7 +26,7 @@
                     <h3>Vintage Leather Jacket</h3>
                     <p>$20.00</p>
                 </a>
-                <button>Add to Cart</button>
+                <button class="cart-btn">Add to Cart</button>
             </div>
 
             <div class="product-card">
@@ -35,7 +35,7 @@
                     <h3>Graphic Tee</h3>
                     <p>$10.00</p>
                 </a>
-                <button>Add to Cart</button>
+                <button class="cart-btn">Add to Cart</button>
             </div>
 
             <div class="product-card">
@@ -44,7 +44,7 @@
                     <h3>Ribbed Flare Cardigan</h3>
                     <p>$10.00</p>
                 </a>
-                <button>Add to Cart</button>
+                <button class="cart-btn">Add to Cart</button>
             </div>
 
         </div>
@@ -57,7 +57,7 @@
                 <input type="text" placeholder="Item Name" required>
                 <input type="number" placeholder="Price ($)" required>
                 <label for="file-upload" class="custom-file-upload">Choose Photo</label>
-                <input id="file-upload" type="file" accept="image/*">
+                <input id="file-upload" type="file" accept="image/*" required>
                 <button type="submit" class="submit-btn">Post to Website</button>
             </form>
         </div>
@@ -67,5 +67,6 @@
         <p>&copy; Greatwill Thrift Store</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
